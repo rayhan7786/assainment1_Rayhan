@@ -1,0 +1,261 @@
+*{
+    padding: 0px;
+    margin: 0px;
+box-sizing: border-box;
+}
+
+/* comon css */
+.container{
+    padding: 0 42px;
+}
+
+/* Nave ber css staart*/
+.top-secation{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 40px;
+    align-items: center;
+    background-color: rgb(246, 239, 239);
+}
+.medil-secation{
+        display: flex;
+    }
+    .medil-secation ul{
+        display: flex;
+        list-style: none;
+    }
+    .medil-secation li{
+        padding:5px 12px;
+    }
+    .medil-secation a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+    .btn-secation{
+        border: none;
+        color: black;
+    }
+    .btn-secation .btn-1{
+        border: none;
+        padding: 10px 12px;
+        font-size: 20px;
+        border-radius: 12px;
+        font-weight: 400;
+        background-color: blueviolet;
+    }
+    .btn-secation .btn-2{
+        border: none;
+        padding: 10px 20px;
+        font-size: 20px;
+        border-radius: 12px;
+        font-weight: 400;
+        background-color: blueviolet;
+
+    }    
+
+/* this is medil section start*/
+.img{
+    background-image: url(images/Rectangle\ 1.png);
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    display: flex;
+    position: relative;
+}
+
+.box{
+    width: 800px;
+    height: 200px;
+    background-color: white;
+    /* display: flex; */
+    position: absolute;
+    top: 300px;
+    left: 25%;
+
+}
+/* this is medil section end*/
+
+/* Buy/sell css End*/
+.Buy-sell{
+    padding:80px 0;
+    text-align: center;
+    background-color: yellow;
+
+    & h2{
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    .Buy-sell img{
+        width:900px;
+        padding-top: 40px ;
+
+    }
+    
+}
+/* this is features part start */
+
+.features{
+
+    .features-text{
+        font-size: 35px;
+        font-weight: 500;
+        margin: 40px 0;
+    }
+    .features-min{
+        display: flex;
+        gap:30px;
+    }
+    .features-logo{
+        text-align: center;
+    }
+    .features-logo h4{
+        font-size:24px;
+        font-weight: 500;
+        margin-bottom: 8px;
+    }
+    
+    .features-logo p{
+        color: rgba(13, 9, 9, 0.6);
+        font-weight: 400;
+        font-size: 19px;
+    }
+
+    .features-logo h6{
+        font-style: inherit;
+        font-weight: 400;
+        color: rgba(9, 8, 8, 0.885);
+        text-decoration: underline;
+        font-style: italic;
+        font-size: 20px;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    .features-btn{
+        width: 100%;
+    }
+    .features-btn button{
+        background-color: rgb(247, 228, 228);
+        border: none;
+        border-radius: 50px;
+        padding: 12px 15px;
+        margin-left:50%;
+        font-weight: 500;
+        transition:all linear 0,5s ;
+    }
+    .features-btn button:hover{
+        background-color: green;
+        color: white;
+        transition: all linear 0.5s;
+    }
+
+} 
+/*this is features end/ */
+
+/* buy and sell secation start/ */
+.buy-sell-section container{
+    display: grid;
+    grid-column: 12;
+    width: 100%;
+}
+.buy-secation{
+    float: left;
+}
+.chat button{
+    background-color: rgb(247, 228, 228);
+        border: none;
+        border-radius: 30px;
+        padding: 12px 15px;
+        margin-left:30%;
+        font-weight: 500;
+        transition:all linear 0,5s ;
+    
+} 
+.chat button:hover{
+    background-color: green;
+        color: white;
+        transition: all linear 0.5s;
+}
+.chat2 button{
+    display: flex;
+    background-color: rgb(247, 228, 228);
+        border: none;
+        border-radius: 30px;
+        padding: 12px 15px;
+        align-items: center;
+        font-weight: 500;
+        transition:all linear 0,5s ;
+}
+.chat2 button:hover{
+    background-color: green;
+        color: white;
+        transition: all linear 0.5s;
+}
+.chat-box{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.chat-box2{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.tex-box{
+    font-size: 30px;
+
+}
+.text-box{
+    font-size: 30px;
+}
+/* buy and sell secation start */
+.border-box{
+    background-color: blueviolet;
+    height: 125px;
+    width: 100%;
+    padding: 20px;
+    & h2{
+        text-align: center;margin-bottom: 5px;
+    }
+    & button{
+        margin-left: 50%;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+    }
+}
+
+.footer{
+    font-size: 14px;
+    font-weight: 500;
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+   padding-left: 80px;
+   padding-right: 80px;
+    
+    & div{
+        float: left;
+        padding: 20px;
+    }
+}
+.ptag{
+    background-color: black;
+    color: white;
+}
